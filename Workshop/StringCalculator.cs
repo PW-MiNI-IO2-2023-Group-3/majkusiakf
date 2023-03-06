@@ -13,6 +13,7 @@ namespace Workshop
             if (str == String.Empty)
                 return 0;
 
+            
             int result = 0;
             if (Int32.TryParse(str, out result))
             {
