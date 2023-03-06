@@ -11,7 +11,7 @@ namespace Workshop
         public static int SumString(string str)
         {
             if (str == String.Empty)
-                return 0;
+                return 1;
 
             int result = 0;
             if (Int32.TryParse(str, out result))
